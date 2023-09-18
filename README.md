@@ -1,2 +1,2 @@
 # AWS-Projects
-Documenting some explorations of AWS labs and projects
+I documented some explorations of AWS in different labs and projects.
