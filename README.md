@@ -1,4 +1,4 @@
 # AWS-Projects
-I documented some explorations of AWS in different labs and projects.
+I documented some explorations of AWS in different labs and projects. Please navigate to different folders to read about specific lab experiences. 
 
-Please navigate to different folders to read about specific lab experiences. While I have not included all the labs I completed over hundreds of hours, I will mention them below:
+While I have not documented all the labs I completed over hundreds of hours on my GitHub, I will mention them below:
