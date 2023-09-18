@@ -41,7 +41,7 @@ While I have not documented all the labs I have completed, I will list the title
 ### 9. Cloud Computing Essentials
 - Amazon S3
 
-  ### 10. Computing Solutions
+### 10. Computing Solutions
 - Amazon EC2
 
 ### 11. Connecting VPCs
