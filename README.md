@@ -3,7 +3,7 @@ I have documented various AWS explorations in different labs and projects. Pleas
 
 While I have not documented all the labs I have completed, I will list the titles of completed labs below to provide a more comprehensive account of my experience and hands-on learning toward mastering different AWS serivces.
 
-## Completed Labs & Associated AWS Services
+# Completed Labs & Associated AWS Services
 
 ### 1. Highly Available Web Applications
 - Amazon EC2
