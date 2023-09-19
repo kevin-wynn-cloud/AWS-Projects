@@ -1,7 +1,7 @@
 # AWS-Projects
 I have documented various AWS explorations in different labs and projects. Please explore the different folders within the repository. In these sections, I've strived to provide detailed narration and illustrations of my learning.
 
-While I have not documented all the labs I have completed, I will list the titles of completed labs below to provide a more comprehensive account of my experience and hands-on learning toward mastering different AWS serivces. I intend to return to all the labs, re-complete them, and document my walkthroughs. For now, the labs with links are the ones for which I have already completed the walkthroughs
+While I have not documented all the labs I have completed, I intend to revisit the early labs I completed without documenting the process. I will re-complete them and provide detailed walkthroughs to share my experience. Currently, the labs with links are the ones for which I have already completed the walkthroughs, while those without links are labs I have completed but did not document.
 
 # Completed Labs & Associated AWS Services
 
