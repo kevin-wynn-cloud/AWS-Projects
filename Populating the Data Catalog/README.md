@@ -1,6 +1,8 @@
 # Populating the Data Catalog
 
-The customer faces challenges in organizing their data lake. Leveraging the AWS Glue Data Catalog can provide a solution, even if you choose to keep your data in its current location. AWS Glue crawlers will populate the Data Catalog with metadata and table definitions. Once these tables are added to the Data Catalog, Amazon Athena can be employed to analyze S3 data using SQL. The provided lab architecture:
+The customer faces challenges in organizing their data lake. Leveraging the AWS Glue Data Catalog can provide a solution, even if you choose to keep your data in its current location. AWS Glue crawlers will populate the Data Catalog with metadata and table definitions. Once these tables are added to the Data Catalog, Amazon Athena can be employed to analyze S3 data using SQL. 
+
+# Lab Architecture
 
 ![0  Picture 0](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/043398a7-e3e2-4ee9-8920-d5d6099b1eca)
 
