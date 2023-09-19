@@ -5,6 +5,12 @@ While I have not documented all the labs I have completed, I will list the title
 
 # Completed Labs & Associated AWS Services
 
+### [Populating the Data Catalog](https://github.com/kevin-wynn-cloud/AWS-Projects/tree/main/Populating%20the%20Data%20Catalog)
+- AWS Glue
+- AWS Lambda
+- Amazon Athena
+- Amazon S3
+
 ### [Federated Queries](https://github.com/kevin-wynn-cloud/AWS-Projects/tree/main/Federated%20Queries)
 - AWS Glue
 - Amazon Athena
