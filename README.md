@@ -1,9 +1,23 @@
 # AWS-Projects
 I have documented various AWS explorations in different labs and projects. Please explore the different folders within the repository. In these sections, I've strived to provide detailed narration and illustrations of my learning.
 
-While I have not documented all the labs I have completed, I will list the titles of completed labs below to provide a more comprehensive account of my experience and hands-on learning toward mastering different AWS serivces.
+While I have not documented all the labs I have completed, I will list the titles of completed labs below to provide a more comprehensive account of my experience and hands-on learning toward mastering different AWS serivces. I intend to return to all the labs, re-complete them, and document my walkthroughs. For now, the labs with links are the ones for which I have already completed the walkthroughs
 
 # Completed Labs & Associated AWS Services
+
+### [Federated Queries](https://github.com/kevin-wynn-cloud/AWS-Projects/tree/main/Federated%20Queries)
+- AWS Glue
+- Amazon Athena
+- DynamoDB
+
+### Data Lakes
+- AWS Lambda
+- Amazon S3
+
+### Querying the Data Lake
+- AWS Lambda
+- Amazon Athena
+- Amazon S3
 
 ### Deploying RESTful APIs
 - AWS Lambda
