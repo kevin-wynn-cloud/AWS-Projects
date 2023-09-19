@@ -36,7 +36,7 @@ In the Data Catalog update options, I selected to create a table in the Data Cat
 
 ![5  Picture 5](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/a7f0b602-0481-49b1-a024-84d612994cba)
 
-#Step 5
+### Step 5
 
 I then navigated to job details and named the job 'ticket-etl-job.' For the IAM Role, I utilized 'AWSGlueServiceRole-lab.' Following this, I saved the configuration and initiated the job.
 
