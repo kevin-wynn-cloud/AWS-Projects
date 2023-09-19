@@ -1,6 +1,6 @@
 # Federated Queries
 
-This project involved acquiring business insights from data within DynamoDB, particularly data derived from a customer request ticketing system, and performing queries on this dataset.
+This lab involved acquiring business insights from data within DynamoDB, particularly data derived from a customer request ticketing system, and performing queries on this dataset.
 
 # Solutions
 
