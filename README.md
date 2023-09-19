@@ -5,52 +5,114 @@ While I have not documented all the labs I have completed, I will list the title
 
 # Completed Labs & Associated AWS Services
 
-### 1. Highly Available Web Applications
+### Deploying RESTful APIs
+- AWS Lambda
+- Amazon API Gateway
+
+### DNS
+- Amazon EC2
+- Amazon Route 53
+- Amazon VPC
+
+### Resource Governance
+- AWS Config
+- AWS KMS
+- Amazon EC2
+- Amazon S3
+
+### API with Database
+- AWS Lambda
+- Amazon API Gateway
+- Amazon DynamoDB
+
+### Backing Up Data
+- AWS Backup
+- Amazon EC2
+
+### Resource Monitoring
+- Amazon CloudWatch
+- Amazon EC2
+
+### Automation with CloudFormation
+- AWS CloudFormation
+- Amazon EC2
+- Amazon S3
+
+### Content Delivery Networks
+- Amazon CloudFront
+- Amazon EC2
+- Amazon S3
+
+### Decoupling Applications
+- Amazon EC2
+- Amazon SNS
+- Amazon SQS
+
+### Container Servives
+- Amazon Elastic Container Registry
+- Amazon ECS
+
+### Data Ingestion Methods
+- Amazon Kinesis
+
+### Single-Page App
+- AWS Lambda
+- Amazon API Gateway
+- Amazon CloudWatch
+- Amazon DynamoDB
+- Amazon S3
+
+### Analyzing Network Traffic 
+- Amazon VPC 
+- Amazon EC2
+- Amazon S3
+
+### Highly Available Web Applications
 - Amazon EC2
 - Amazon EC2 Auto Scaling
 - Amazon S3
 - Elastic Load Balancing
 
-### 2. First NoSQL Database
-- Amazon DyanmoDB
-
-### 3. Networking Concepts 
-- Amazon EC2
-- Amazon VPC
-
-### 4. Cloud Economics
-- Amazon EC2
-- Cloud Economics
-
-### 5. File Systems in the Cloud
+### File Systems in the Cloud
 - Amazon EC2
 - Amazon EFS
 
-### 6. Databases in Practice
+### Databases in Practice
 - Amazon RDS
 
-### 7. Core Security Concepts
-- AWS IAM
-- Amazon EC2
-- Amazon RDS
-
-### 8. Auto-Healing and Scaling Application
+### Auto-Healing and Scaling Application
  - Amazon EC2
  - Amazon EC2 Auto Scaling
- 
-### 9. Cloud Computing Essentials
-- Amazon S3
 
-### 10. Computing Solutions
+### Computing Solutions
 - Amazon EC2
 
-### 11. Connecting VPCs
+### First NoSQL Database
+- Amazon DyanmoDB
+
+### Networking Concepts 
 - Amazon EC2
 - Amazon VPC
 
-### 12. Cloud First Steps
+### Cloud Economics
+- Amazon EC2
+- Cloud Economics
+
+### Core Security Concepts
+- AWS IAM
+- Amazon EC2
+- Amazon RDS
+ 
+### Cloud Computing Essentials
+- Amazon S3
+
+### Connecting VPCs
+- Amazon EC2
+- Amazon VPC
+
+### Cloud First Steps
 - Amazon EC2
 
-<!---
-AWS Solutions Architect chunk next, then almost caught up!
--->
+### Serverless Foundations
+- AWS Lambda
+
