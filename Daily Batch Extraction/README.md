@@ -12,13 +12,13 @@ In this initial step, I navigated to Secrets Manager and retrieved the 'Secret v
 
 ![1  Picture 1](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/9c41bdad-30b0-4965-9d29-21ff063abc6b)
 
-# Step 2: Crafting AWS Glue Database and Connection
+# Step 2: AWS Glue Database and Connection
 
 Continuing on, I proceeded to AWS Glue. Here, I created a 'batch-db' database and established a connection named 'batch-conn' as an Amazon RDS connection, utilizing the Amazon Aurora DB engine. I employed the 'sales-database-instance-writer' DB instance and credentials from Secret Manager. Afterward, I configured 'batch-conn' to use my lab's VPC, database subnet, and security group.
 
 ![2  Picture 2](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/9647134a-8143-4bf4-bff6-1cb6834287e5)
 
-# Step 3: Pioneering Table Creation with AWS Glue Crawler
+# Step 3: Table Creation with AWS Glue Crawler
 In this step, I added a table in AWS Glue using a crawler, naming it 'batch-db-table.' I specified the JDBC datastream as the source, linking it to 'batch-conn.' My path selection, 'sales/%,' ensured all tables in the sales database were included. Additionally, I configured the GlueRole to enable the crawler to assume the necessary role and ran the new crawler.
 
 ![3  Picture 3](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/e761ee48-1e2f-43f9-933a-68e70dc1a923)
@@ -79,7 +79,7 @@ I named the job 'customers_job' and specified my GlueRole IAM role. My job confi
 
 ![7  Picture 7](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/0a08cdb9-8a4b-4437-8d08-1756f4c2a5eb)
 
-# Step 8: Embarking on Athena's Analytical Journey
+# Step 8: Athena's Analytics
 To analyze the data, I navigated to Amazon Athena. I managed settings, specifying my 'processed-bucket' as the destination for query results. I executed an SQL query and reviewed the results.
 
 ```sql
