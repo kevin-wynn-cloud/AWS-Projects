@@ -5,6 +5,12 @@ While I have not documented all the labs I have completed, I intend to revisit t
 
 # Completed Labs & Associated AWS Services
 
+### [Daily Batch Extraction](https://github.com/kevin-wynn-cloud/AWS-Projects/tree/main/Daily%20Batch%20Extraction)
+- AWS Glue
+- Amazon Athena
+- Amazon RDS
+- Amazon S3
+
 ### [Populating the Data Catalog](https://github.com/kevin-wynn-cloud/AWS-Projects/tree/main/Populating%20the%20Data%20Catalog)
 - AWS Glue
 - AWS Lambda
