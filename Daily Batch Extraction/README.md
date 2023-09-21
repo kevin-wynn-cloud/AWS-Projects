@@ -6,7 +6,7 @@ In this lab, I tackled a pressing issue faced by a major supermarket franchise: 
 
 ![0  Picture 0](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/f074ce28-1251-460a-a600-61ec3dea80d9)
 
-# Step 1: Setting up Secrets and RDS Configuration
+# Step 1: RDS Configuration
 
 In this initial step, I navigated to Secrets Manager and retrieved the 'Secret value' from a created secret. Next, I accessed my RDS databases, collecting vital information about the database VPC and subnet. Finally, I enhanced security by adding an inbound rule to my RDS security group, permitting all TCP traffic from my Database Security Group (a self-referencing rule).
 
