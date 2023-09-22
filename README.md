@@ -5,6 +5,13 @@ While I have not documented all the labs I have completed, I intend to revisit t
 
 # Completed Labs & Associated AWS Services
 
+### [Streaming Ingestion](https://github.com/kevin-wynn-cloud/AWS-Projects/tree/main/Streaming%20Ingestion)
+- Amazon Kinesis 
+- Amazon Athena
+- Amazon S3
+- AWS Lambda
+- Amazon SQS
+
 ### [Daily Batch Extraction](https://github.com/kevin-wynn-cloud/AWS-Projects/tree/main/Daily%20Batch%20Extraction)
 - AWS Glue
 - Amazon Athena
