@@ -5,6 +5,11 @@ While I have not documented all the labs I have completed, I intend to revisit t
 
 # Completed Labs & Associated AWS Services
 
+### [Real-Time Data Processing](https://github.com/kevin-wynn-cloud/AWS-Projects/tree/main/Real-Time%20Data%20Processing)
+- AWS Lambda
+- Amazon DynamoDB
+- Amazon Kinesis
+
 ### [Streaming Ingestion](https://github.com/kevin-wynn-cloud/AWS-Projects/tree/main/Streaming%20Ingestion)
 - Amazon Kinesis 
 - Amazon Athena
