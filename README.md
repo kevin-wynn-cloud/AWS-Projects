@@ -5,6 +5,11 @@ While I have not documented all the labs I have completed, I intend to revisit t
 
 # Completed Labs & Associated AWS Services
 
+### [Cloud Data Warehouse](https://github.com/kevin-wynn-cloud/AWS-Projects/tree/main/Cloud%20Data%20Warehouse)
+- AWS Glue
+- Amazon Redshift
+- Amazon S3
+
 ### [Real-Time Data Processing](https://github.com/kevin-wynn-cloud/AWS-Projects/tree/main/Real-Time%20Data%20Processing)
 - AWS Lambda
 - Amazon DynamoDB
