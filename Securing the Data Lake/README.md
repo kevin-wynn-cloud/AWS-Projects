@@ -35,7 +35,7 @@ Now, let's set up access controls to restrict certain aspects of the data:
 
 # Step 3: Extending Access to opsDirector and OpsManager
 
-Now, let's grant specific access to the opsDirector and OpsManager roles:
+Lastly, let's grant specific access to the opsDirector and OpsManager roles:
 
 - Provide permissions to the opsDirector and OpsManager roles.
 - Verification of Access in Amazon Athena
