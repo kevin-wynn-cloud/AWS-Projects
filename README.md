@@ -5,7 +5,7 @@ While I have not documented all the labs I have completed, I intend to revisit t
 
 # Completed Labs & Associated AWS Services
 
-### [https://github.com/kevin-wynn-cloud/AWS-Projects/tree/main/Documents%20Indexing%20and%20Search](https://github.com/kevin-wynn-cloud/AWS-Projects/tree/main/Documents%20Indexing%20and%20Search)
+### [Documents Inddexing and Search](https://github.com/kevin-wynn-cloud/AWS-Projects/tree/main/Documents%20Indexing%20and%20Search)
 - Amazon OpenSearch Service
 - AWS Glue
 
