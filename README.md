@@ -5,6 +5,13 @@ While I have not documented all the labs I have completed, I intend to revisit t
 
 # Completed Labs & Associated AWS Services
 
+### [Event-Driven ETL Automation](https://github.com/kevin-wynn-cloud/AWS-Projects/tree/main/Event-Driven%20ETL%20Automation)
+- AWS Glue
+- AWS Lambda
+- AWS Step Functions
+- Amazon Athena
+- Amazon S3
+
 ### [Documents Indexing and Search](https://github.com/kevin-wynn-cloud/AWS-Projects/tree/main/Documents%20Indexing%20and%20Search)
 - Amazon OpenSearch Service
 - AWS Glue
