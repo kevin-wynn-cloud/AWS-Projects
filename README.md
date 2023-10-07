@@ -5,6 +5,10 @@ While I have not documented all the labs I have completed, I intend to revisit t
 
 # Completed Labs & Associated AWS Services
 
+### [Setting up a Cloud Development Environment](https://github.com/kevin-wynn-cloud/AWS-Projects/tree/main/Set%20Up%20a%20Cloud%20Dev%20Environment)
+- Cloud9
+- Amazon S3
+
 ### [Designing a NoSQL Database](https://github.com/kevin-wynn-cloud/AWS-Projects/tree/main/NoSQL%20Database%20Design)
 - DynamoDB
 - Cloud9
