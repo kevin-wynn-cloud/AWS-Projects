@@ -94,122 +94,178 @@ While I have not documented all the labs I have completed, I intend to revisit t
 </div>
 
 ### Data Lakes
-- AWS Lambda
-- Amazon S3
+<div id="badges">
+<img src="https://img.shields.io/badge/Amazon_S3-brown?logo=amazonaws"/>
+<img src="https://img.shields.io/badge/AWS_Lambda-teal?logo=amazonaws"/>
+</div>
 
 ### Querying the Data Lake
-- AWS Lambda
-- Amazon Athena
-- Amazon S3
+<div id="badges">
+<img src="https://img.shields.io/badge/Amazon_S3-brown?logo=amazonaws"/>
+<img src="https://img.shields.io/badge/AWS_Lambda-teal?logo=amazonaws"/>
+<img src="https://img.shields.io/badge/AWS_Athena-brown?logo=amazonaws"/>
+</div>
 
 ### Deploying RESTful APIs
-- AWS Lambda
-- Amazon API Gateway
+<div id="badges">
+<img src="https://img.shields.io/badge/AWS_Lambda-teal?logo=amazonaws"/>
+<img src="https://img.shields.io/badge/Amazon_API_Gateway-brown?logo=amazonaws"/>
+</div>
 
 ### DNS
-- Amazon EC2
-- Amazon Route 53
-- Amazon VPC
+<div id="badges">
+<img src="https://img.shields.io/badge/Amazon_EC2-orange?logo=amazonaws"/>
+<img src="https://img.shields.io/badge/Amazon_VPC-blue?logo=amazonaws"/>
+<img src="https://img.shields.io/badge/Amazon_Route_53-brown?logo=amazonaws"/>
+</div>
 
 ### Resource Governance
-- AWS Config
-- AWS KMS
-- Amazon EC2
-- Amazon S3
+<div id="badges">
+<img src="https://img.shields.io/badge/AWS_Config-blue?logo=amazonaws"/>
+<img src="https://img.shields.io/badge/Amazon_KMS-teal?logo=amazonaws"/>
+<img src="https://img.shields.io/badge/Amazon_S3-brown?logo=amazonaws"/>
+<img src="https://img.shields.io/badge/Amazon_EC2-orange?logo=amazonaws"/>
+</div>
 
 ### API with Database
-- AWS Lambda
-- Amazon API Gateway
-- Amazon DynamoDB
+<div id="badges">
+<img src="https://img.shields.io/badge/AWS_Lambda-teal?logo=amazonaws"/>
+<img src="https://img.shields.io/badge/Amazon_API_Gateway-brown?logo=amazonaws"/>
+<img src="https://img.shields.io/badge/Amazon_DynamoDB-orange?logo=amazonaws"/>
+</div>
 
 ### Backing Up Data
-- AWS Backup
-- Amazon EC2
+<div id="badges">
+<img src="https://img.shields.io/badge/AWS_Backup-blue?logo=amazonaws"/>
+<img src="https://img.shields.io/badge/Amazon_EC2-orange?logo=amazonaws"/>
+</div>
 
 ### Resource Monitoring
-- Amazon CloudWatch
-- Amazon EC2
+<div id="badges">
+<img src="https://img.shields.io/badge/Amazon_Cloudwatch-brown?logo=amazonaws"/>
+<img src="https://img.shields.io/badge/Amazon_EC2-orange?logo=amazonaws"/>
+</div>
 
 ### Automation with CloudFormation
-- AWS CloudFormation
-- Amazon EC2
-- Amazon S3
+<div id="badges">
+<img src="https://img.shields.io/badge/AWS_CloudFormation-orange?logo=amazonaws"/>
+<img src="https://img.shields.io/badge/Amazon_S3-brown?logo=amazonaws"/>
+<img src="https://img.shields.io/badge/Amazon_EC2-blue?logo=amazonaws"/>
+</div>
 
 ### Content Delivery Networks
-- Amazon CloudFront
-- Amazon EC2
-- Amazon S3
+<div id="badges">
+<img src="https://img.shields.io/badge/Amazon_CloudFront-teal?logo=amazonaws"/>
+<img src="https://img.shields.io/badge/Amazon_S3-brown?logo=amazonaws"/>
+<img src="https://img.shields.io/badge/Amazon_EC2-blue?logo=amazonaws"/>
+</div>
 
 ### Decoupling Applications
-- Amazon EC2
-- Amazon SNS
-- Amazon SQS
+<div id="badges">
+<img src="https://img.shields.io/badge/Amazon_SNS-teal?logo=amazonaws"/>
+<img src="https://img.shields.io/badge/Amazon_SQS-brown?logo=amazonaws"/>
+<img src="https://img.shields.io/badge/Amazon_EC2-blue?logo=amazonaws"/>
+</div>
 
 ### Container Servives
-- Amazon Elastic Container Registry
-- Amazon ECS
+<div id="badges">
+<img src="https://img.shields.io/badge/Amazon_ECS-brown?logo=amazonaws"/>
+<img src="https://img.shields.io/badge/Amazon_Elastic_Container_Registry-teal?logo=amazonaws"/>
+</div>
 
 ### Data Ingestion Methods
-- Amazon Kinesis
+<div id="badges">
+<img src="https://img.shields.io/badge/Amazon_Kinesis-brown?logo=amazonaws"/>
+</div>
 
 ### Single-Page App
-- AWS Lambda
-- Amazon API Gateway
-- Amazon CloudWatch
-- Amazon DynamoDB
-- Amazon S3
+<div id="badges">
+<img src="https://img.shields.io/badge/AWS_Lambda-teal?logo=amazonaws"/>
+<img src="https://img.shields.io/badge/Amazon_API_Gateway-brown?logo=amazonaws"/>
+<img src="https://img.shields.io/badge/AWS_CloudWatch-blue?logo=amazonaws"/>
+<img src="https://img.shields.io/badge/Amazon_DynamoDB-orange?logo=amazonaws"/>
+ <img src="https://img.shields.io/badge/Amazon_S3-teal?logo=amazonaws"/>
+</div>
 
 ### Analyzing Network Traffic 
-- Amazon VPC 
-- Amazon EC2
-- Amazon S3
+<div id="badges">
+<img src="https://img.shields.io/badge/Amazon_VPC-orange?logo=amazonaws"/>
+<img src="https://img.shields.io/badge/Amazon_S3-brown?logo=amazonaws"/>
+<img src="https://img.shields.io/badge/Amazon_EC2-blue?logo=amazonaws"/>
+</div>
 
 ### Highly Available Web Applications
-- Amazon EC2
-- Amazon EC2 Auto Scaling
-- Amazon S3
-- Elastic Load Balancing
+<div id="badges">
+<img src="https://img.shields.io/badge/Amazon_EC2-blue?logo=amazonaws"/>
+<img src="https://img.shields.io/badge/Amazon_EC2_Auto_Scaling-orange?logo=amazonaws"/>
+<img src="https://img.shields.io/badge/AWS_Elastic_Load_Balancing-brown?logo=amazonaws"/>
+<img src="https://img.shields.io/badge/Amazon_S3-teal?logo=amazonaws"/>
+</div>
 
 ### File Systems in the Cloud
-- Amazon EC2
-- Amazon EFS
+<div id="badges">
+<img src="https://img.shields.io/badge/Amazon_EC2-blue?logo=amazonaws"/>
+<img src="https://img.shields.io/badge/Amazon_EFS-teal?logo=amazonaws"/>
+</div>
 
 ### Databases in Practice
-- Amazon RDS
+<div id="badges">
+<img src="https://img.shields.io/badge/Amazon_RDS-blue?logo=amazonaws"/>
+</div>
 
 ### Auto-Healing and Scaling Application
- - Amazon EC2
- - Amazon EC2 Auto Scaling
+<div id="badges">
+<img src="https://img.shields.io/badge/Amazon_EC2-blue?logo=amazonaws"/>
+<img src="https://img.shields.io/badge/Amazon_EC2_Auto_Scaling-orange?logo=amazonaws"/>
+</div>
 
 ### Computing Solutions
-- Amazon EC2
+<div id="badges">
+<img src="https://img.shields.io/badge/Amazon_EC2-blue?logo=amazonaws"/>
+</div>
 
 ### First NoSQL Database
-- Amazon DyanmoDB
+<div id="badges">
+<img src="https://img.shields.io/badge/Amazon_DynamoDB-orange?logo=amazonaws"/>
+</div>
 
 ### Networking Concepts 
-- Amazon EC2
-- Amazon VPC
+<div id="badges">
+<img src="https://img.shields.io/badge/Amazon_EC2-blue?logo=amazonaws"/>
+<img src="https://img.shields.io/badge/Amazon_VPC-orange?logo=amazonaws"/>
+</div>
 
 ### Cloud Economics
-- Amazon EC2
-- Cloud Economics
+<div id="badges">
+<img src="https://img.shields.io/badge/Amazon_EC2-blue?logo=amazonaws"/>
+<img src="https://img.shields.io/badge/Cloud_Economics-orange?logo=amazonaws"/>
+</div>
 
 ### Core Security Concepts
-- AWS IAM
-- Amazon EC2
-- Amazon RDS
+<div id="badges">
+<img src="https://img.shields.io/badge/AWS_IAM-orange?logo=amazonaws"/>
+<img src="https://img.shields.io/badge/Amazon_EC2-blue?logo=amazonaws"/>
+<img src="https://img.shields.io/badge/Amazon_RDS-brown?logo=amazonaws"/>
+</div>
  
 ### Cloud Computing Essentials
-- Amazon S3
+<div id="badges">
+<img src="https://img.shields.io/badge/Amazon_S3-teal?logo=amazonaws"/>
+</div>
 
 ### Connecting VPCs
-- Amazon EC2
-- Amazon VPC
+<div id="badges">
+<img src="https://img.shields.io/badge/Amazon_EC2-blue?logo=amazonaws"/>
+<img src="https://img.shields.io/badge/Amazon_VPC-orange?logo=amazonaws"/>
+</div>
 
 ### Cloud First Steps
-- Amazon EC2
+<div id="badges">
+<img src="https://img.shields.io/badge/Amazon_EC2-blue?logo=amazonaws"/>
+</div>
 
 ### Serverless Foundations
-- AWS Lambda
+<div id="badges">
+<img src="https://img.shields.io/badge/AWS_Lambda-teal?logo=amazonaws"/>
+</div>
 
