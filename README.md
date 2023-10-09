@@ -6,68 +6,92 @@ While I have not documented all the labs I have completed, I intend to revisit t
 # Completed Labs & Associated AWS Services
 
 ### [Setting up a Cloud Development Environment](https://github.com/kevin-wynn-cloud/AWS-Projects/tree/main/Set%20Up%20a%20Cloud%20Dev%20Environment)
-- Cloud9
-- Amazon S3
+<div id="badges">
+<img src="https://img.shields.io/badge/Amazon_S3-yellow?logo=amazonaws"/>
+<img src="https://img.shields.io/badge/Cloud9-teal?logo=amazonaws"/>
+</div>
 
 ### [Designing a NoSQL Database](https://github.com/kevin-wynn-cloud/AWS-Projects/tree/main/NoSQL%20Database%20Design)
-- DynamoDB
-- Cloud9
+<div id="badges">
+<img src="https://img.shields.io/badge/Amazon_DynamoDB-orange?logo=amazonaws"/>
+<img src="https://img.shields.io/badge/Cloud9-teal?logo=amazonaws"/>
+</div>
 
 ### [Event-Driven ETL Automation](https://github.com/kevin-wynn-cloud/AWS-Projects/tree/main/Event-Driven%20ETL%20Automation)
-- AWS Glue
-- AWS Lambda
-- AWS Step Functions
-- Amazon Athena
-- Amazon S3
+<div id="badges">
+<img src="https://img.shields.io/badge/AWS_Glue-blue?logo=amazonaws"/>
+<img src="https://img.shields.io/badge/AWS_Lambda-yellow?logo=amazonaws"/>
+<img src="https://img.shields.io/badge/AWS_Step_Functions-teal?logo=amazonaws"/>
+<img src="https://img.shields.io/badge/AWS_Athena-orange?logo=amazonaws"/>
+<img src="https://img.shields.io/badge/Amazon_S3-blue?logo=amazonaws"/>
+</div>
 
 ### [Documents Indexing and Search](https://github.com/kevin-wynn-cloud/AWS-Projects/tree/main/Documents%20Indexing%20and%20Search)
-- Amazon OpenSearch Service
-- AWS Glue
+<div id="badges">
+<img src="https://img.shields.io/badge/Amazon_OpenSearch_Service-orange?logo=amazonaws"/>
+<img src="https://img.shields.io/badge/Glue-teal?logo=amazonaws"/>
+</div>
 
 ### [Event-Driven Serverless ETL](https://github.com/kevin-wynn-cloud/AWS-Projects/tree/main/Event-Driven%20Serverless%20ETL)
-- AWS Glue
-- Amazon Redshift
-- Amazon S3
+<div id="badges">
+<img src="https://img.shields.io/badge/AWS_Glue-blue?logo=amazonaws"/>
+<img src="https://img.shields.io/badge/Amazon_Redshift-yellow?logo=amazonaws"/>
+<img src="https://img.shields.io/badge/Amazon_S3-teal?logo=amazonaws"/>
+</div>
 
 ### [Securing the Data Lake](https://github.com/kevin-wynn-cloud/AWS-Projects/tree/main/Securing%20the%20Data%20Lake)
-- AWS Lake Formation
-- AWS Glue
-- Amazon Athena
-- Amazon S3
+<div id="badges">
+<img src="https://img.shields.io/badge/AWS_Glue-blue?logo=amazonaws"/>
+<img src="https://img.shields.io/badge/AWS_Lake_Formation-yellow?logo=amazonaws"/>
+<img src="https://img.shields.io/badge/AWS_Athena-orange?logo=amazonaws"/>
+<img src="https://img.shields.io/badge/Amazon_S3-blue?logo=amazonaws"/>
+</div>
 
 ### [Cloud Data Warehouse](https://github.com/kevin-wynn-cloud/AWS-Projects/tree/main/Cloud%20Data%20Warehouse)
-- AWS Glue
-- Amazon Redshift
-- Amazon S3
+<div id="badges">
+<img src="https://img.shields.io/badge/AWS_Glue-blue?logo=amazonaws"/>
+<img src="https://img.shields.io/badge/Amazon_Redshift-yellow?logo=amazonaws"/>
+<img src="https://img.shields.io/badge/Amazon_S3-teal?logo=amazonaws"/>
+</div>
 
 ### [Real-Time Data Processing](https://github.com/kevin-wynn-cloud/AWS-Projects/tree/main/Real-Time%20Data%20Processing)
-- AWS Lambda
-- Amazon DynamoDB
-- Amazon Kinesis
+<div id="badges">
+<img src="https://img.shields.io/badge/Amazon_Lambda-orange?logo=amazonaws"/>
+<img src="https://img.shields.io/badge/Amazon_DynamoDB-yellow?logo=amazonaws"/>
+<img src="https://img.shields.io/badge/Amazon_Kinesis-blue?logo=amazonaws"/>
+</div>
 
 ### [Streaming Ingestion](https://github.com/kevin-wynn-cloud/AWS-Projects/tree/main/Streaming%20Ingestion)
-- Amazon Kinesis 
-- Amazon Athena
-- Amazon S3
-- AWS Lambda
-- Amazon SQS
+<div id="badges">
+<img src="https://img.shields.io/badge/Amazon_Lambda-orange?logo=amazonaws"/>
+<img src="https://img.shields.io/badge/AWS_Athena-yellow?logo=amazonaws"/>
+<img src="https://img.shields.io/badge/Amazon_S3-teal?logo=amazonaws"/>
+<img src="https://img.shields.io/badge/Amazon_Kinesis-blue?logo=amazonaws"/>
+ <img src="https://img.shields.io/badge/Amazon_SQS-yellow?logo=amazonaws"/>
+</div>
 
 ### [Daily Batch Extraction](https://github.com/kevin-wynn-cloud/AWS-Projects/tree/main/Daily%20Batch%20Extraction)
-- AWS Glue
-- Amazon Athena
-- Amazon RDS
-- Amazon S3
+<div id="badges">
+<img src="https://img.shields.io/badge/AWS_Glue-blue?logo=amazonaws"/>
+<img src="https://img.shields.io/badge/AWS_Athena-yellow?logo=amazonaws"/>
+<img src="https://img.shields.io/badge/Amazon_RDS-orange?logo=amazonaws"/>
+<img src="https://img.shields.io/badge/Amazon_S3-teal?logo=amazonaws"/>
+</div>
 
 ### [Populating the Data Catalog](https://github.com/kevin-wynn-cloud/AWS-Projects/tree/main/Populating%20the%20Data%20Catalog)
-- AWS Glue
-- AWS Lambda
-- Amazon Athena
-- Amazon S3
+<div id="badges">
+<img src="https://img.shields.io/badge/AWS_Glue-blue?logo=amazonaws"/>
+<img src="https://img.shields.io/badge/AWS_Athena-yellow?logo=amazonaws"/>
+<img src="https://img.shields.io/badge/Amazon_Lambda-orange?logo=amazonaws"/>
+<img src="https://img.shields.io/badge/Amazon_S3-teal?logo=amazonaws"/>
+</div>
 
 ### [Federated Queries](https://github.com/kevin-wynn-cloud/AWS-Projects/tree/main/Federated%20Queries)
-- AWS Glue
-- Amazon Athena
-- DynamoDB
+<div id="badges">
+<img src="https://img.shields.io/badge/AWS_Glue-blue?logo=amazonaws"/>
+<img src="https://img.shields.io/badge/AWS_Athena-yellow?logo=amazonaws"/>
+<img src="https://img.shields.io/badge/Amazon_DynamoDB-orange?logo=amazonaws"/>
+</div>
 
 ### Data Lakes
 - AWS Lambda
