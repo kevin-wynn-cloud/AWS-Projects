@@ -4,14 +4,14 @@ In this lab, our client, a gaming company, has requested improvements for their 
 
 # Lab Architecture:
 
-![picture0](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/5dc052f0-4ff8-49d5-ae8f-06ebb2d81644)
+![1](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/100aecf8-4bb3-433e-8a10-4dc64dd82c0b)
 
 # Step 1: Setup and Code Review
 
 - In the Cloud9 environment, I clondc the necessary Git repository and installed the required Python modules.
 - I navigated to the dynamoDB-tests directory and executed sudo pip3 install -r requirements.txt to ensure the necessary Python packages were installed.
 
-![picture1](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/a2f603e2-584a-47e6-b77e-780620c4ec3f)
+![2](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/69b6d5c2-10c1-4859-a240-fff78abfabb4)
 
 # Step 2: Querying Data with player_score_get_item.py
 
@@ -70,7 +70,7 @@ if __name__ == "__main__":
     print_data(player_game_data, duration)
 ```
 
-![picture2](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/75f68079-edcf-4c05-9193-7b408c47b342)
+![3](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/2b2f6739-74f4-4872-98d9-19dc89106015)
 
 # Step 3: Querying Data with player_score_query.py
 
@@ -141,7 +141,7 @@ if __name__ == "__main__":
 
 ```
 
-![picture3](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/beeabce0-a033-4784-b2eb-a9ff5f2eccd6)
+![4](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/49014e43-3b0b-4e8c-a1eb-d96b0671611b)
 
 # Step 4: Scanning Data with player_score_scan.py
 
@@ -224,7 +224,7 @@ if __name__ == "__main__":
     print_player_data(all_items, duration, total_consumed_capacity)
 ```
 
-![picture 4](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/75667e59-399b-4a2a-879e-fc0b341708e9)
+![5](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/a79f09b6-70d1-4697-8094-8b9ba499dee2)
 
 # Step 5: Creating a Secondary Index
 
