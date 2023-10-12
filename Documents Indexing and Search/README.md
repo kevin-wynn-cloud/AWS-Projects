@@ -4,7 +4,7 @@ In this lab, we will explore how to enhance an online banking application to mee
 
 # Architecture
 
-![picture0](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/1546c043-4dc3-42eb-b674-b7ade9a28115)
+![1](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/e58d0c72-1b63-4eab-8dbe-7a0e0d6a0c2a)
 
 # Step 1: OpenSearch Domain Setup
 
@@ -12,7 +12,7 @@ In this lab, we will explore how to enhance an online banking application to mee
 - Utilized version 7.1 of OpenSearch and provisioned an m5.large.search instance.
 - Created a master user named "lab-user."
 
-![picture1](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/90934daf-efbe-4a93-9d05-f8a4aa932f0f)
+![2](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/9c2455dc-e0c2-4e4f-b321-4f7994f09f44)
 
 # Step 2: Glue ETL Job Configuration
 
@@ -117,9 +117,9 @@ print("Total records: ", DataFrame.count())
 job.commit()
 ```
 
-![picture 2](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/a1d53b02-5be5-4880-867e-215c8ea55e18)
+![3](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/9767e270-5010-4acb-bc4e-178db0be45bb)
 
-![picture2](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/62fc7df2-9c08-4afd-a404-074c1016ad6a)
+![4](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/b4b82ec4-bec4-401c-ad79-5c5daf066be6)
 
 # Step 3: Application Testing and Kibana Exploration
 
@@ -128,7 +128,6 @@ job.commit()
 - Accessed the Kibana URL associated with the OpenSearch domain.
 - Entered the credentials and interacted with Elasticsearch API as a private tenant.
 
-![picture3](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/cbf6f61e-60ec-4124-aa85-b41c9b381e49)
+![5](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/96491d28-aa64-48a2-8611-32796c086dd9)
 
-![picture4](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/3b3c6364-3616-4fa4-bcb8-c202df7adea3)
-
+![6](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/e6fa0f2d-06c0-4e92-9d8d-83ed5c47bc70)
