@@ -4,25 +4,25 @@ In this lab, the customer manages several wind farms and would like to receive i
 
 # Lab Architecture
 
-![0  Picture 0](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/d7c558e3-97c3-41cd-8239-6916f6d96174)
+![1](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/f56b163a-6ef9-4dba-9943-87d23ecc176c)
 
 # Step 1: Setting Up Kinesis Data Streams and Wind Turbine Simulator
 
 To begin, I navigated to my kinesis-flink bucket and copied the AnomalyDetection.jar. Then, I accessed my instances and visited my Wind Turbine Simulator webpage using my instance's public IPv4 address. Afterward, I went to Amazon Kinesis and created a provisioned Kinesis data stream named WindDataStream. Once it was successfully created, I returned to the Wind Turbine Data Simulator webpage and entered the name of my Kinesis stream.
 
-![1  Picture 1](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/3353dc1c-a578-4927-a7ce-68a6d253fe4c)
+![2](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/467d8a06-e25f-44b8-b19f-adb16679d76f)
 
 # Step 2: Configuring Data Streams and AnomalyDetectionStream
 
 In the data viewer tab of the Kinesis console, I selected an available shard and chose the latest starting position to view the records. Subsequently, I created another provisioned data stream named AnomalyDetectionStream for ingesting the results of anomaly detections.
 
-![2  Picture 2](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/1257f4d3-0694-4de3-bada-50809ba60308)
+![3](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/f17b4396-b5f1-4e03-ba0a-0540ffca3147)
 
 # Step 3: Creating and Configuring the AnomalyDetection Application
 
 I proceeded to create my streaming application, selecting the "from scratch" option and naming it AnomalyDetection. I utilized my existing lab-kinesis-analytics-role service role and selected the development template. Next, I configured the streaming application, pointing it toward my kinesis-flink-application bucket to fetch the AnomalyDetection.jar file, and let Kinesis assume my lab-kinesis-analytics role. I configured the runtime properties as shown:
 
-![3  Picture 3](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/1a0e676a-37eb-4a56-ad1e-c44fceee6bc4)
+![4](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/319591e8-1169-43d1-a799-3eb2c2048872)
 
 # Step 4: Running the AnomalyDetection Application and Configuring Lambda Function
 
@@ -180,5 +180,5 @@ def handler(event, context):
 
 Finally, from the Wind Turbine Data Simulator, I started the DIY dataset. I checked to verify that the DIY DynamoDB table was populated with maximum wind speed data for the city wind farm.
 
-![7  Picture 7](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/0f818e1a-bc6b-4034-97eb-aa7f864f1083)
+![5](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/86662e31-f80a-41c7-93e0-dde87dd22e7f)
 
