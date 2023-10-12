@@ -4,7 +4,7 @@ The objective of this lab is to design and implement an event-driven Extract, Tr
 
 # Lab Architecture:
 
-![picture0](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/6257f90d-6a5c-4781-8d7f-eba3893745d5)
+![1](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/ab346c90-ac02-4dca-8cdf-109bdd20170e)
 
 # Step 1: AWS Glue Job for JSON to Parquet Conversion
 
@@ -181,13 +181,13 @@ In this step, we orchestrate the ETL process using AWS Step Functions. The state
 - GetCrawler job to check the status of the second crawler.
 - Repeated Choice and Step 5 for data querying using Amazon Athena.
 
-![picture 3](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/cd80ca0e-ae44-403f-b4b2-9e2ca58f5545)
+![2](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/5f46438a-6352-47c1-90d6-39b868d316c3)
 
 # Step 4: Review and Finalization
 
 Review the entire workflow graph and the Amazon State Language definition code. Configure the workflow to use the "AWSStepFunctionsRole-Lab" role and rename the state machine to "data-workflow" before finalizing its creation.
 
-![picture6](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/3d52b7d4-1aee-4ac2-89d0-f6320a25e0a5)
+![3](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/da86a858-27ba-4591-82b3-93d14580e8da)
 
 # Step 5: Lambda Function Configuration
 
@@ -320,7 +320,7 @@ def generate_data(num_records):
 
 Integrate an SNS (Simple Notification Service) topic into the Step Functions state machine workflow. Configure notifications to publish to the created topic when loading shipping data. Ensure that you specify the topic's ARN in the Step Functions configuration.
 
-![picture10](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/c35efde1-728d-4a97-bfc8-a0c206fd9d77)
+![4](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/a3419ce3-7bbb-4a21-85ed-85b35219491c)
 
 # Conclusion:
 
