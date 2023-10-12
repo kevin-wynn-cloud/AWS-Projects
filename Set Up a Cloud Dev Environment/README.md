@@ -4,7 +4,7 @@ An educational company aims to provide students with an immersive cloud developm
 
 # Lab Architecture:
 
-![picture0](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/3a4faaf3-358c-4029-b7e5-47d2e57f2e6a)
+![1](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/60cdc4e2-f496-48bd-aa6f-9137e837e53f)
 
 # Step 1: Creating a Cloud9 Environment
 
@@ -12,7 +12,7 @@ An educational company aims to provide students with an immersive cloud developm
 - Created a new environment using the Amazon Linux 2 platform, SSH connection, and a t2.micro instance type.
 - Created a new Python file template and added a print statement.
 
-![picture1](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/ac40c97e-bd3c-4d57-baaa-5954d737f320)
+![2](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/43181576-54fe-4df3-ae6a-bc14ff54b907)
 
 # Step 2: Cloning Code from a Git Repository
 
@@ -105,7 +105,7 @@ if __name__ == "__main__":
     main()
 ```
 
-![picture3](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/1c5cbb16-cb7a-469f-b998-72553c872eb9)
+![3](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/0f3c2042-55d0-4bad-8fa0-0a3eed73e884)
 
 # Step 3: Creating an S3 Bucket
 
@@ -117,7 +117,7 @@ aws s3 mb s3://mylabbucket198912
 s3://mylabbucket198912
 ```
 
-![picture4](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/cd49d814-e899-45d1-9da0-70094cd11aee)
+![4](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/84eb0c8a-d2fe-40af-985d-86967c43a1ae)
 
 # Step 4: Version Control and Commit
 
@@ -134,7 +134,7 @@ git push
 
 ```
 
-![picture5](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/b1192c3f-ee7a-4452-89b0-53439f19df8a)
+![5](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/8d33a3dd-454c-4bf2-bb74-f5550a61f46e)
 
 # Step 5: Modifying the Upload Function
 
