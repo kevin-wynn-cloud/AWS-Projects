@@ -4,13 +4,13 @@ In this Cloud Quest lab, our customer is a logistics manager for a gas station f
 
 # Lab Architecture
 
-![0  Picture 0](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/1e50e891-dc4c-4d27-b2a9-2da26d47bda9)
+![1](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/b936999d-50c4-4a22-9228-11bc1f540d88)
 
 # Step 1: Setting Up the Kinesis Data Firehose Delivery Stream
 
 First, I navigated to Amazon Kinesis and created a Kinesis Data Firehose delivery stream. I used Direct PUT as a source and Amazon S3 as a destination, enabling record format conversion and selecting Apache Parquet as an output format (to convert stream data from JSON to Apache Parquet before storing data in my bucket, which enables faster queries). I selected my AWS Glue DB named 'conversion' and the AWS Glue table named 'conversion_table'. I selected my 'consumption-bucket' as my S3 bucket destination.
 
-![1  Picture 1](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/6eca1bfb-5e1a-4ea3-9f0d-2d7eeb5127b5)
+![2](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/636b385f-f741-41a3-a94a-c3dbbef3be54)
 
 # Step 2: Configuring Kinesis Data Firehose
 
@@ -20,7 +20,7 @@ Next, I enabled dynamic partitioning, new line delimiter, and inline parsing for
 
 Next, I used my existing IAM Kinesis Firehose role before finally creating my delivery stream.
 
-![3  Picture 3](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/47be61ea-6a69-4425-892a-97971cc20d38)
+![3](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/7fd3bd97-5bef-4509-8e33-f81d2f4b110a)
 
 # Step 4: Configuring AWS Lambda (GasStationApp)
 
@@ -81,7 +81,7 @@ def lambda_handler(event, context):
     return station_list
 ```
 
-![4  Picture 4](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/9cee869e-8195-4005-be3b-e41b0b3f8d90)
+![4](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/c076332b-40ff-43c6-ac29-b57ff42aba29)
 
 # Step 5: Verifying Data in S3 and Testing FuelPlanningApp
 
@@ -165,7 +165,7 @@ def send_sqs_message(stationID):
     print(sendMessage['MessageId'])
 ```
 
-![5  Picture 5](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/96576fe3-11b5-40d7-8175-6642bd994fd7)
+![5](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/eb1891cb-0d65-4df9-914a-d532e146dd4c)
 
 # Step 6: Reviewing SQS Queue and Testing FuelTruckApp
 
@@ -208,16 +208,15 @@ def lambda_handler(event, context):
     return message
 ```
 
-![6  Picture 6](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/80043ff3-cea0-455b-af69-4c00cfe5a2e9)
+![6](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/187e6c7b-d7b9-4cb1-bb7a-6cc6d39d227d)
 
 # Step 7: Reducing SQS Queue Messages
 
 By repeating the invocation of the 'FuelTruckApp', I was able to reduce the SQS queue messages to zero.
 
-![7  Picture 7](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/1a405d78-d9f7-4cfb-b06c-ab25f4b09c9f)
+![7](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/be99fe30-e41f-4fd0-987b-704b0d943c03)
 
-![8  Picture 8](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/0c9218e6-531f-45da-bf4e-05b558159b9b)
-
+![8](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/d26f0db0-4b58-4c1e-bf59-38ef3e69c3ce)
 
 
 
