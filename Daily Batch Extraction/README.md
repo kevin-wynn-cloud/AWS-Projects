@@ -21,7 +21,7 @@ Continuing on, I proceeded to AWS Glue. Here, I created a 'batch-db' database an
 # Step 3: Table Creation with AWS Glue Crawler
 In this step, I added a table in AWS Glue using a crawler, naming it 'batch-db-table.' I specified the JDBC datastream as the source, linking it to 'batch-conn.' My path selection, 'sales/%,' ensured all tables in the sales database were included. Additionally, I configured the GlueRole to enable the crawler to assume the necessary role and ran the new crawler.
 
-![4](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/767fd3bf-898e-4f07-9339-64d5a5b4c4ca)
+![274672354-767fd3bf-898e-4f07-9339-64d5a5b4c4ca](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/cdbb4cfa-2909-42be-8bcb-208b6499da77)
 
 # Step 4: ETL Job Creation in AWS Glue
 Verifying the table definitions in my Data Catalog, I navigated to ETL Jobs. Here, I created a new job, opting for a visual interface with a source and target. I selected AWS Glue Catalog as the source and an S3 bucket as the target. In the visual editor, I established the 'Customer Table' node, mirroring the 'batch-db' schema and 'sales_customer' table.
@@ -91,5 +91,6 @@ SELECT * FROM "batch-db"."customers" limit 10;
 # Step 9: Final Endeavor
 Concluding this lab walkthrough, I created another job in AWS Glue Studio. This job ingested transaction table data from the Data Catalog, created the transaction table, and facilitated data access via Athena.
 
-![9](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/fad13044-0ae5-4aa1-9bfa-3933b9e09a82)
+![274672506-fad13044-0ae5-4aa1-9bfa-3933b9e09a82](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/a7076a55-632d-47ab-88c1-aa1d07fbc0b7)
+
 
