@@ -4,12 +4,12 @@ In this lab, we will implement an Event-Driven Serverless ETL (Extract, Transfor
 
 # Architecture
 
-![1](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/9a77b0f0-3c20-40df-b447-c6621f8fcc0f)
+![1](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/d3762f6f-0893-4fa6-8dbe-1f8275a887c9)
 
 # Step 1: Configuring Amazon S3 Event Notifications
 To kickstart the ETL process, we first set up an Amazon S3 event notification. We created an event called s3Events with a .json suffix and set it to trigger when new objects are created in the S3 landing bucket. These events are routed to invoke the start_workflow_function Lambda function, which initiates our ETL pipeline.
 
-![Picture1](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/90bbe831-10a8-4b44-a11b-bf9f64171957)
+![2](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/68e42340-578e-457a-8bb4-74cd08bee68e)
 
 # Step 2: Creating Amazon Redshift Table
 In Amazon Redshift, we connected to the toll_db database as an admin user using the query editor. We ran SQL to create a toll_table with the necessary columns to store the toll plaza data.
@@ -26,27 +26,27 @@ CREATE TABLE toll_table (
 );
 ```
 
-![picture2](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/76e243ab-9776-40da-8a94-fd9e9911a78a)
+![3](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/8dc7d078-4ed7-435a-abaa-c042cb65db1a)
 
 # Step 3: Setting Up AWS Secrets Manager and AWS Glue Connection
 We utilized AWS Secrets Manager to securely retrieve our secret values, which are required for connecting to the Amazon Redshift database. We then configured an AWS Glue data connection by specifying the JDBC URL, LabVPC settings, database subnet, and Redshift security group.
 
-![picture3](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/e613e4ff-76a3-4964-b6f7-0e2c4a89b886)
+![4](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/8cf722e2-5ebd-4dde-9942-304e1e3f515e)
 
 # Step 4: Running AWS Glue Crawler
 With the data connection in place, we created an AWS Glue crawler, selecting JDBC as the data source and the redshift_conn connection. This crawler was associated with our AWS Glue IAM role, and we executed it to discover the schema and metadata of our data in Amazon Redshift.
 
-![picture4](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/ea31d89e-22a5-4426-994b-10a4a63c041b)
+![5](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/09bafc81-0441-48f8-ac91-7fd1074a30dd)
 
 # Step 5: Creating ETL Job
 We proceeded to create an ETL job within AWS Glue. This ETL job extracts data from the S3 landing bucket, transforms it as needed, and loads it into Amazon Redshift. In the visual editor, we specified the source (S3 and Data Catalog) and target (Redshift and staging bucket) configurations.
 
-![picture5](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/b807dbc7-7992-4142-8ae9-bff99fb39543)
+![6](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/dc9fddff-2297-4141-aa87-53b69a2c170b)
 
 # Step 6: Defining ETL Workflow and Trigger
 To orchestrate our ETL process, we established an ETL workflow named redshift_workflow. Within this workflow, we introduced an On-Demand trigger named redshift-workflows-start. We added our S3 crawler as one of the job nodes, creating a seamless data flow.
 
-![picture6](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/6122474a-9f50-4fec-b457-4fce3a43480c)
+![7](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/330c7eb6-0b93-4d46-8468-b77dee609b4b)
 
 # Step 7: Testing and Invoking the Lambda Function
 Finally, we tested and invoked our Lambda function, which generates fake toll plaza data and uploads it to the specified S3 bucket. This function is designed to simulate data ingestion and initiation of the ETL process. Proper logging and error handling were implemented to ensure smooth execution.
@@ -194,7 +194,7 @@ def send(event, context, responseStatus, responseData, physicalResourceId=None, 
 
 ```
 
-![picture7](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/d995f8af-e5f9-46df-8ef4-f821e5a26cc1)
+![8](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/023b8f9d-35bb-4618-8836-5038ae7b1730)
 
 # Conclusion
 This Event-Driven Serverless ETL architecture leverages AWS services, such as S3, Glue, and Redshift, to provide real-time toll plaza data to our customer. By automating data collection, transformation, and loading, we ensure that the most up-to-date toll data is available for analysis and reporting. The architecture can be further extended and optimized based on specific business requirements and data volume.
