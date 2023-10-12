@@ -119,8 +119,6 @@ job.commit()
 
 ![3](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/9767e270-5010-4acb-bc4e-178db0be45bb)
 
-![4](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/b4b82ec4-bec4-401c-ad79-5c5daf066be6)
-
 # Step 3: Application Testing and Kibana Exploration
 
 - Accessed the online banking application via the EC2 instance's public IP address.
