@@ -4,7 +4,7 @@ A gaming company sought to gain deeper insights into their players by harnessing
 
 # Lab Architecture
 
-![0  Picture 0](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/ebf08dd3-e9c2-4dfe-9f11-4460d49a5a39)
+![1](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/7ef20b59-400b-4622-95c8-0f224c786c51)
 
 # Step 1: Creating Glue Script
 
@@ -71,13 +71,13 @@ job.commit()
 
 In this step, I went to Job Details and named the job "games-flattened-data-job." I specified the required AWS Glue role and executed the job.
 
-![2  Picture 2](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/c0428f55-eeb2-4384-bb1e-5d785f3ab411)
+![2](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/2032f100-e2b8-47dc-88c1-b786f03245d5)
 
 # Step 3: Creating a Crawler
 
 Next, I created a crawler named "games-flattened-data-crawler." I added the S3 consumption bucket as the data source, selected the path to the Parquet directory within the bucket, and utilized the "aws_glue_role" for necessary resource access. The crawler targeted the "games-flattened-data-db" database and was executed.
 
-![3  Picture 3](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/84793747-390a-44fc-9ae8-7d06cb15a6bf)
+![3](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/0ee38ef4-9dd2-4a4b-912c-116e5a090e25)
 
 # Step 4: Setting Up Amazon Redshift
 
