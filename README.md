@@ -5,6 +5,13 @@ While I have not documented all the labs I have completed, I intend to revisit t
 
 # Completed Labs & Associated AWS Services
 
+### [Triggers - Aggregating Data](https://github.com/kevin-wynn-cloud/AWS-Projects/tree/main/Triggers%20-%20Aggregating%20Data)
+<div id="badges">
+<img src="https://img.shields.io/badge/Amazon_Lambda-orange?logo=amazonaws"/>
+<img src="https://img.shields.io/badge/Amazon_DynamoDB-brown?logo=amazonaws"/>
+</div>
+
+
 ### [Setting up a Cloud Development Environment](https://github.com/kevin-wynn-cloud/AWS-Projects/tree/main/Set%20Up%20a%20Cloud%20Dev%20Environment)
 <div id="badges">
 <img src="https://img.shields.io/badge/Amazon_S3-brown?logo=amazonaws"/>
