@@ -5,6 +5,14 @@ While I have not documented all the labs I have completed, I intend to revisit t
 
 # Completed Labs & Associated AWS Services
 
+### Deploying APIs Gradually
+<div id="badges">
+<img src="https://img.shields.io/badge/Cloud9-teal?logo=amazonaws"/>
+<img src="https://img.shields.io/badge/CodeDeploy-brown?logo=amazonaws"/>
+<img src="https://img.shields.io/badge/Amazon_Lambda-orange?logo=amazonaws"/>
+<img src="https://img.shields.io/badge/API_Gateway-blue?logo=amazonaws"/>
+</div>
+
 ### [Templating a Serverless Application](https://github.com/kevin-wynn-cloud/AWS-Projects/tree/main/Templating%20a%20Serverless%20Application)
 <div id="badges">
 <img src="https://img.shields.io/badge/Cloud9-teal?logo=amazonaws"/>
@@ -23,6 +31,7 @@ While I have not documented all the labs I have completed, I intend to revisit t
 <div id="badges">
 <img src="https://img.shields.io/badge/Amazon_S3-brown?logo=amazonaws"/>
 <img src="https://img.shields.io/badge/Cloud9-teal?logo=amazonaws"/>
+ <img src="https://img.shields.io/badge/Code_Commit-blue?logo=amazonaws"/>
 </div>
 
 ### [Designing a NoSQL Database](https://github.com/kevin-wynn-cloud/AWS-Projects/tree/main/NoSQL%20Database%20Design)
