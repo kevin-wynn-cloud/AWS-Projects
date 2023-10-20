@@ -5,7 +5,7 @@ While I have not documented all the labs I have completed, I intend to revisit t
 
 # Completed Labs & Associated AWS Services
 
-### Deploying APIs Gradually
+### [Deploying APIs Gradually](https://github.com/kevin-wynn-cloud/AWS-Projects/tree/main/Deploying%20APIs%20Gradually)
 <div id="badges">
 <img src="https://img.shields.io/badge/Cloud9-teal?logo=amazonaws"/>
 <img src="https://img.shields.io/badge/CodeDeploy-brown?logo=amazonaws"/>
