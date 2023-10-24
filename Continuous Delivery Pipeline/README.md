@@ -68,3 +68,5 @@ I then tested my pipeline by changing the "Hello World" text in my app.py code a
 - git commit -a -m "first commit"
 - git push
 ```
+
+![8](https://github.com/kevin-wynn-cloud/AWS-Projects/assets/144941082/6cf4556b-a855-48f7-9994-6654f9965354)
