@@ -5,20 +5,29 @@ While I have not documented all the labs I have completed, I intend to revisit t
 
 # Completed Labs & Associated AWS Services
 
+### [Continuous Delivery Pipeline](https://github.com/kevin-wynn-cloud/AWS-Projects/tree/main/Continuous%20Delivery%20Pipeline)
+<div id="badges">
+<img src="https://img.shields.io/badge/AWS_Cloud9-teal?logo=amazonaws"/>
+<img src="https://img.shields.io/badge/AWS_CodeCommit-brown?logo=amazonaws"/>
+<img src="https://img.shields.io/badge/AWS_CodePipeline-blue?logo=amazonaws"/>
+<img src="https://img.shields.io/badge/AWS_CodeBuild-orange?logo=amazonaws"/>
+<img src="https://img.shields.io/badge/AWS_CloudFormation-teal?logo=amazonaws"/>
+</div>
+
 ### [Deploying APIs Gradually](https://github.com/kevin-wynn-cloud/AWS-Projects/tree/main/Deploying%20APIs%20Gradually)
 <div id="badges">
-<img src="https://img.shields.io/badge/Cloud9-teal?logo=amazonaws"/>
-<img src="https://img.shields.io/badge/CodeDeploy-brown?logo=amazonaws"/>
+<img src="https://img.shields.io/badge/AWS_Cloud9-teal?logo=amazonaws"/>
+<img src="https://img.shields.io/badge/Amazon_CodeDeploy-brown?logo=amazonaws"/>
 <img src="https://img.shields.io/badge/Amazon_Lambda-orange?logo=amazonaws"/>
 <img src="https://img.shields.io/badge/API_Gateway-blue?logo=amazonaws"/>
 </div>
 
 ### [Templating a Serverless Application](https://github.com/kevin-wynn-cloud/AWS-Projects/tree/main/Templating%20a%20Serverless%20Application)
 <div id="badges">
-<img src="https://img.shields.io/badge/Cloud9-teal?logo=amazonaws"/>
+<img src="https://img.shields.io/badge/AWS_Cloud9-teal?logo=amazonaws"/>
 <img src="https://img.shields.io/badge/Amazon_DynamoDB-brown?logo=amazonaws"/>
 <img src="https://img.shields.io/badge/AWS_CloudFormation-orange?logo=amazonaws"/>
-<img src="https://img.shields.io/badge/Code_Commit-blue?logo=amazonaws"/>
+<img src="https://img.shields.io/badge/AWS_CodeCommit-blue?logo=amazonaws"/>
 </div>
 
 ### [Triggers - Aggregating Data](https://github.com/kevin-wynn-cloud/AWS-Projects/tree/main/Triggers%20-%20Aggregating%20Data)
@@ -30,14 +39,14 @@ While I have not documented all the labs I have completed, I intend to revisit t
 ### [Setting up a Cloud Development Environment](https://github.com/kevin-wynn-cloud/AWS-Projects/tree/main/Set%20Up%20a%20Cloud%20Dev%20Environment)
 <div id="badges">
 <img src="https://img.shields.io/badge/Amazon_S3-brown?logo=amazonaws"/>
-<img src="https://img.shields.io/badge/Cloud9-teal?logo=amazonaws"/>
- <img src="https://img.shields.io/badge/Code_Commit-blue?logo=amazonaws"/>
+<img src="https://img.shields.io/badge/AWS_Cloud9-teal?logo=amazonaws"/>
+ <img src="https://img.shields.io/badge/AWS_CodeCommit-blue?logo=amazonaws"/>
 </div>
 
 ### [Designing a NoSQL Database](https://github.com/kevin-wynn-cloud/AWS-Projects/tree/main/NoSQL%20Database%20Design)
 <div id="badges">
 <img src="https://img.shields.io/badge/Amazon_DynamoDB-orange?logo=amazonaws"/>
-<img src="https://img.shields.io/badge/Cloud9-teal?logo=amazonaws"/>
+<img src="https://img.shields.io/badge/AWS_Cloud9-teal?logo=amazonaws"/>
 </div>
 
 ### [Event-Driven ETL Automation](https://github.com/kevin-wynn-cloud/AWS-Projects/tree/main/Event-Driven%20ETL%20Automation)
@@ -52,7 +61,7 @@ While I have not documented all the labs I have completed, I intend to revisit t
 ### [Documents Indexing and Search](https://github.com/kevin-wynn-cloud/AWS-Projects/tree/main/Documents%20Indexing%20and%20Search)
 <div id="badges">
 <img src="https://img.shields.io/badge/Amazon_OpenSearch_Service-orange?logo=amazonaws"/>
-<img src="https://img.shields.io/badge/Glue-teal?logo=amazonaws"/>
+<img src="https://img.shields.io/badge/AWS_Glue-teal?logo=amazonaws"/>
 </div>
 
 ### [Event-Driven Serverless ETL](https://github.com/kevin-wynn-cloud/AWS-Projects/tree/main/Event-Driven%20Serverless%20ETL)
