@@ -5,6 +5,14 @@ While I have not documented all the labs I have completed, I intend to revisit t
 
 # Completed Labs & Associated AWS Services
 
+### [Creating my Static Website](https://github.com/kevin-wynn-cloud/AWS-Projects/tree/main/Creating%20my%20Static%20Website)
+<div id="badges">
+<img src="https://img.shields.io/badge/Amazon_S3-brown?logo=amazonaws"/>
+<img src="https://img.shields.io/badge/Amazon_Route_53-blue?logo=amazonaws"/>
+<img src="https://img.shields.io/badge/AWS_Certificate_Manager-teal?logo=amazonaws"/>
+<img src="https://img.shields.io/badge/Amazon_CloudFront-orange?logo=amazonaws"/>
+</div>
+
 ### [Continuous Delivery Pipeline](https://github.com/kevin-wynn-cloud/AWS-Projects/tree/main/Continuous%20Delivery%20Pipeline)
 <div id="badges">
 <img src="https://img.shields.io/badge/AWS_Cloud9-teal?logo=amazonaws"/>
