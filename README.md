@@ -5,6 +5,13 @@ While I have not documented all the labs I have completed, I intend to revisit t
 
 # Completed Labs & Associated AWS Services
 
+### [Integrating Serverless Applications](https://github.com/kevin-wynn-cloud/AWS-Projects/tree/main/Integrating%20Serverless%20Applications)
+<div id="badges">
+ <img src="https://img.shields.io/badge/Amazon_SQS-orange?logo=amazonaws"/>
+<img src="https://img.shields.io/badge/Amazon_Lambda-teal?logo=amazonaws"/>
+<img src="https://img.shields.io/badge/Amazon_DynamoDB-blue?logo=amazonaws"/>
+</div>
+
 ### [Creating my Static Website](https://github.com/kevin-wynn-cloud/AWS-Projects/tree/main/Creating%20my%20Static%20Website)
 <div id="badges">
 <img src="https://img.shields.io/badge/Amazon_S3-brown?logo=amazonaws"/>
