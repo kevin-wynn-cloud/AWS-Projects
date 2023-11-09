@@ -1,5 +1,5 @@
 # AWS-Projects
-I have documented various AWS explorations in different AWS labs and projects. Please explore the different folders within the repository. In these sections, I've strived to provide detailed narration and illustrations of my lab experiences.
+I have documented AWS explorations in different AWS labs and projects. Please explore the different folders within the repository. In these sections, I've strived to provide detailed narration and illustrations of my experiences.
 
 While I have not documented all the labs I have completed, I intend to revisit the early labs I completed without documenting the process. I will re-complete them and provide detailed walkthroughs to share my experience. Currently, the labs with links are the ones for which I have already completed the walkthroughs, while those without links are labs I have completed but did not document.
 
